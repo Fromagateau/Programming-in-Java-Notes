@@ -4,24 +4,47 @@ import java.io.File;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
 public class AddrBookReader {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		read("/Users/ryansoeyadi/Desktop/Java Notes/Java Files/addr/zAddrBook.txt");
+	}
 
-		try {
+	public static void read(String fileName) {
 
-			File addressBook = new File("/Users/ryansoeyadi/Desktop/Java Notes/Java Files/addr/zAddrBook.txt");	//open file
-			Scanner addressScanner = new Scanner(addressBook);	//create scanner instance to read file
-			
-			String nextLine = addressScanner.nextLine(); //store each line in var nextLine
-			// System.out.println(nextLine);
+		String[] components = new String[1000];
 
-			String[] components = nextLine.split(",");	//break up the line according to comma delimiter
+		try 
+		{
+
+		BufferedReader br = new BufferedReader(new FileReader(fileName));
+		
+
+		//go through line by line, separate by commas, and add each element to the components array
+		String line; int i = 0;
+		StringTokenizer st;
+		while ((line = br.readLine()) != null) {
+			st = new StringTokenizer(line, ",");
+
+			while (st.hasMoreTokens()) {
+				components[i] = st.nextToken();
+				i++;
+			}
+		}
+
+		}
+
+		catch (Exception e) {
+			  System.out.println(e.getClass());
+		}
 
 			//assign each component to a variable
 			String lastName = components[0];
@@ -38,11 +61,8 @@ public class AddrBookReader {
 
 			System.out.println(person.toString());
 
-	}	catch (FileNotFoundException exception) {
-			Logger.getLogger(AddrBookReader.class.getName()).log(Level.SEVERE, null, exception);
-	}
+	}	
 
 
 }
 
-}
