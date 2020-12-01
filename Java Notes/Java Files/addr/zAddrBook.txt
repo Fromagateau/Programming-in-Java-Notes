@@ -1,0 +1,19 @@
+Anile,Joseph,35 Forest Avenue,Glen Cove,NY,12345,(516)937-4021
+Brown,Robert,96 Landing Road,Brooklyn,NY,12345,(718)921-7505
+Colin,Albert,64 Lisa Drive,Plainview,NY,12345,(516)671-2895
+Davies,Todd,129 Georgia Street,Forest Hills,NY,12345,(718)496-3717
+Eisner,Jack,6 Sunset Drive,East Norwich,CT,12345,(215)759-1976
+Field,Diane,254 West 79 Street,New York,NY,12345,(212)647-9372
+Gambi,Teresa,12 Cypress Avenue,Syosset,NY,12345,(516)299-5478
+Hart,Richard,31 Cherry Lane,Hicksville,NY,12345,(516)679-7920
+Izzo,Anthony,342 Coleridge Drive,Locus Grove,NY,12345,(516)367-3066
+Johnson,Carl,8 Bayview Drive,Bayville,NY,12345,(516)299-7643
+Sullivan,John,22 Oakdale Ave.,Huntington,NY,12345,(516)453-3239
+Sultan,Sam,123 Main Street,New York,NY,12345,(212)123-1234
+Sultan,Carol,123 Main Street,New York,NY,12345,(212)123-1234
+Tillman,Christopher,70 Oyster Bay Road,Oyster Bay,NY,12345,(516)922-4941
+Urich,Robert,123 Hollywood Lane,Century City,CA,12345,(415)498-5301
+Valante,Vincent,67 Redbank Road,Holmdel,NJ,12345,(212)123-1234
+Williams,Leonard,1267 2nd Ave,New York,NY,12345,(212)765-3476
+Xu,Wei,16 Jericho Turnpike,Jericho,NY,12345,(516)628-8309
+Yen,Jerry,123 Johnson Circle,Bethpage,NY,12345,(631)327-8567
