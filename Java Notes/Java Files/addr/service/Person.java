@@ -1,28 +1,29 @@
 package addr.service;
 
-
 public class Person {
 
 	private String firstName, lastName;
 	private String address;
 	private String phoneNumber;
 
-
 	public Person() {
-		this.firstName = "";
-		this.lastName = "";
-		this.address = "";
-		this.phoneNumber = "";
+		this.firstName = "First";
+		this.lastName = "Last";
+		this.address = "Address";
+		this.phoneNumber = "Phone Number";
 
 	}
 
+	//toString method to display all the information in an organized manner
 	@Override
 	public String toString() {
 
-		return "Last Name: " + lastName + '\n'
-			+ "First Name: " + firstName + '\n'
-			+ "Address: " + address + '\n'
-			+ "Phone Number: " + phoneNumber + '\n';
+		return 
+			"------------------------------\n"
+		+	"Last Name: " + lastName + '\n'
+		+ 	"First Name: " + firstName + '\n'
+		+ 	"Address: " + address + '\n'
+		+ 	"Phone Number: " + phoneNumber + '\n';
 
 	}
 
