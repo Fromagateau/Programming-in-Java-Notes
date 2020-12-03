@@ -10,10 +10,10 @@ public class AddrBookReader {
 
   public static void read(String fileName) {
 
-  	//prompt user for the person they're looking for
-  	String wantedPerson = promptForName();
+    //prompt user for the person they're looking for
+    String wantedPerson = promptForName();
 
-  	//read the file
+    //read the file
     BufferedReader br = null;
     try {
       br = new BufferedReader(new FileReader(fileName));
@@ -66,18 +66,17 @@ public class AddrBookReader {
         //compare the names
         for (int i = 0; i < tmpWords.length; i++) {
           if ((tmpWords[i].toLowerCase().indexOf(wantedPerson.toLowerCase())) == 0) { //case insensitive and works with partial name
-          	wantedPerson = tmpWords[i];
+            wantedPerson = tmpWords[i];
             st = new StringTokenizer(line, ",");
 
             while (st.hasMoreTokens()) {
-           
-            components[i] = st.nextToken();
-			i++;
+
+              components[i] = st.nextToken();
+              i++;
             }
           }
-
           else {
-          	break; //if there's no match, exit the loop completely and just return the array we have
+            break; //if there's no match, exit the loop completely and just return the array we have
           }
         }
       }
@@ -94,11 +93,11 @@ public class AddrBookReader {
   //prompt the user for the person they're looking for 
   private static String promptForName() {
 
-	    Scanner prompter = new Scanner(System. in );
-	    System.out.print("Last Name: ");
-	    String lastName = prompter.nextLine();
-	   
-	   	return lastName;
+    Scanner prompter = new Scanner(System. in );
+    System.out.print("Last Name: ");
+    String lastName = prompter.nextLine();
+
+    return lastName;
 
   }
 
