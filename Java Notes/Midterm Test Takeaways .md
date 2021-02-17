@@ -3,11 +3,10 @@ Test Takeaways on October 21st, 2020
 ---
 
 - Watch brackets in Java; if there are no brackets in an "if" statement, only the next line will run
+---
 
-  --
+<img src="./Midterm-Takeaways-img/1.png" alt="1" style="zoom:50%;" />
 
-  **picture** 
-  
 Watch out for this question which you got wrong; the correct answers are:
 
 ## **A, D, B, C**
