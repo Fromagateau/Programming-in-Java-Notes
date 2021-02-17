@@ -23,7 +23,7 @@ Lecture No. 7 on September 30th, 2020, 6:13pm
 
 - add minimum
 
-  ![Screen Shot 2020-09-30 at 6.49.10 PM](/Users/ryansoeyadi/Library/Application Support/typora-user-images/Screen Shot 2020-09-30 at 6.49.10 PM.png)
+  ![1](./Lect7-img/1.png)
 
 ---
 
@@ -39,7 +39,7 @@ Lecture No. 7 on September 30th, 2020, 6:13pm
 - a **service class**
   - a class that holds some functions to give us functionality for something, but doesn't actually do stuff by itself
 
-![Screen Shot 2020-09-30 at 7.14.14 PM](/Users/ryansoeyadi/Library/Application Support/typora-user-images/Screen Shot 2020-09-30 at 7.14.14 PM.png)
+![2](./Lect7-img/2.png)
 
 - we need a **user class** to actually use these service classes
 
@@ -72,7 +72,7 @@ A `switch` statement considers a value and compares it against several possible 
 
 ex. in **Java**
 
-![Screen Shot 2020-09-30 at 7.42.46 PM](/Users/ryansoeyadi/Library/Application Support/typora-user-images/Screen Shot 2020-09-30 at 7.42.46 PM.png)
+![3](./Lect7-img/3.png)
 
 - **IMPORTANT:** *you want to break after each case so it doesn't **fall through***
 
@@ -84,7 +84,7 @@ ex. in **Java**
 
   *condition* **?** *statement to execute if true* **:** *statement to execute if false* **;**
 
-![Screen Shot 2020-09-30 at 7.53.27 PM](/Users/ryansoeyadi/Library/Application Support/typora-user-images/Screen Shot 2020-09-30 at 7.53.27 PM.png)
+![4](./Lect7-img/4.png)
 
 1. Check if number1 > number2
    - if number1 *is* greater than number2, assign number1 to maximum
