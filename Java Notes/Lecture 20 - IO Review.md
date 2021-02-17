@@ -1,4 +1,4 @@
-Lecture 20 at 6:14pm on Novem
+Lecture 20 at 6:14pm 
 
 ## I/O
 
