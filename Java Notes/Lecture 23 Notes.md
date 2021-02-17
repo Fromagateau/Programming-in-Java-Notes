@@ -90,3 +90,30 @@ toString() //This method returns a string representation of the object
 
 - does not "go deep" into that
 
+---
+
+## Homework Notes
+
+- if you're reading a text file and want to keep reading through till end, use
+
+  - ```java
+    while(true) {
+      if (line == null) {
+        break;
+      }
+    }
+    ```
+
+You can actually declare an array without specifiying the size of the array
+
+
+
+```java
+String[] data;
+...
+  
+data = s.split("\n");
+```
+
+
+
